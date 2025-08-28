@@ -22,9 +22,11 @@ Goal:
 
 ### 2.2 For users
 
-![alt text](image.png)
+![alt text](new_architecture.png)
 
-Building blocks:
+
+
+<!-- Building blocks:
 | | |
 | - | - | 
 | MCP |  Every tool and every AI use the same protocol to communicate. No need extra adapters. |
@@ -81,6 +83,4 @@ For example, it deletes the IP and exact movie title if necessary:
 * **Only MCP Servers (local tools) fetch personal/device/app info.**
 * **RAG only adds general (non-personal) context and cannot access user info.**
 * **Prompt Cleaner always runs after info is gathered and before any external (A2A) step.**
-* **A2A is only used when a solution cannot be found locally, and the message is always clean.**
-
-
+* **A2A is only used when a solution cannot be found locally, and the message is always clean.** -->
